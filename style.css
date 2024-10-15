@@ -1,0 +1,205 @@
+*,
+*::after,
+*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+
+    background: rgb(214, 204, 204);
+    background: linear-gradient(90deg, rgba(214, 204, 204, 1) 0%, rgba(70, 68, 105, 1) 100%, rgba(226, 225, 245, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* .logo {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    transform: rotate(120deg);
+} */
+
+.logo {
+    width: 0;
+    height: 0;
+    border-top: 90px solid rgb(0, 0, 0);
+    border-right: 90px solid transparent;
+}
+
+
+
+.fa-github {
+    position: absolute;
+    transform: rotate(-50deg);
+    top: 0;
+    color: black;
+    font-size: 3rem;
+    background-color: white;
+    border-radius: 60%;
+}
+
+.nav-btns {
+    margin-right: 5rem;
+}
+
+.bg-changer {
+    width: 40px;
+    background-color: black;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 4.5em;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 2rem;
+    color: #FFDFDB;
+
+}
+
+.header .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+
+.static {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+input {
+    cursor: pointer;
+    width: 500px;
+    padding: 11px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(42, 40, 40);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+
+
+}
+
+.dynamic {
+    width: 500px;
+    display: flex;
+}
+
+.inputWala {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 9px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #FFDFDB;
+}
+
+.open-time {
+    margin-top: 0.5rem;
+    color: #FFDFDB;
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.text-content {
+
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+}
+
+.text-content.active {
+    display: flex;
+}
+
+.containerrr.active {
+    display: flex;
+}
+
+.nonee {
+    display: none;
+}
+
+.nonee.active {
+    display: flex;
+}
+
+.textx {
+    cursor: pointer;
+    margin: 5px auto;
+    /* margin-bottom: 100px; */
+    background-color: rgb(42, 40, 40);
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 20px;
+    color: #FFDFDB;
+    min-width: 300px;
+    padding: 16px;
+    font-size: 0.7rem;
+    display: inline;
+    padding: 20px;
+    margin-right: 20px;
+
+
+}
+
+.fa-trash-o {
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+
+    padding: 10px;
+    display: inline;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 1rem;
+
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
