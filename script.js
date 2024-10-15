@@ -73,32 +73,35 @@ submit.addEventListener("click",()=>{
     // Clear input value
     inputs.value = "";
   
-    // Add event listener for delete button
+    
     iwala.addEventListener("click", () => {
       taskWrapper.remove(); // Remove the task item (both h2 and i element)
 
 
 
-
-
-//     placeToAdd.appendChild(newEle)
-//     placeToAdd.appendChild(iwala)
-
-    
-// inputs.value=""
-// // iwala.textContent=""
-
-
-
+})
 
 })
 
-// let iwala=document.querySelector("fa-trash-o")
-// let newEle=document.querySelector("textx")
 
 
-// iwala.addEventListener("click",()=>{
-//   console.log("clickedd");
-//   newEle=""
-//   iwala=""
+const container=document.querySelector(".container")
+
+
+const color1=document.querySelector(".color-1")
+const color2=document.querySelector(".color-2")
+const color3=document.querySelector(".color-3")
+
+color1.addEventListener("click",()=>{
+  console.log("clocec");
+ container.style.background = `linear-gradient(90deg, rgba(214, 204, 204, 1) 0%, rgba(70, 68, 105, 1) 100%, rgba(226, 225, 245, 1) 100%)`;
 })
+
+color2.addEventListener("click",()=>{
+  console.log("clocec");
+  container.style.background = "linear-gradient(90deg, rgba(255,169,169,1) 0%, rgba(51,42,212,1) 100%, rgba(143,238,210,1) 100%)";
+ })
+
+ color3.addEventListener("click",()=>{
+  container.style.background = " linear-gradient(90deg, rgba(248,179,233,1) 0%, rgba(75,59,165,1) 100%, rgba(135,143,31,1) 100%)";
+ })

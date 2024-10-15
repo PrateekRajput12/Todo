@@ -203,3 +203,22 @@ input {
     align-items: center;
     gap: 3rem;
 }
+
+
+.color-3 {
+    background: linear-gradient(90deg, rgba(248, 179, 233, 1) 0%, rgba(75, 59, 165, 1) 100%, rgba(135, 143, 31, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.color-2 {
+    background: linear-gradient(90deg, rgba(255, 169, 169, 1) 0%, rgba(51, 42, 212, 1) 100%, rgba(143, 238, 210, 1) 100%);
+    outline: none;
+    border: none;
+}
+
+.color-1 {
+    background: linear-gradient(90deg, rgba(214, 204, 204, 1) 0%, rgba(70, 68, 105, 1) 100%, rgba(226, 225, 245, 1) 100%);
+    outline: none;
+    border: none;
+}
